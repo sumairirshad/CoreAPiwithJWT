@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CoreApiWithJWT/v16/Server/sqlite3/storage.ide-wal
+/.vs/CoreApiWithJWT/v16/Server/sqlite3/storage.ide-shm
+/.vs/CoreApiWithJWT/v16/Server/sqlite3/storage.ide
+/.vs/CoreApiWithJWT/v16/Server/sqlite3/db.lock
+/.vs/CoreApiWithJWT/v16/.suo
+/.vs/CoreAPiwithJWT2/v16/.suo
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/CoreApiWithJWT/bin/Debug/netcoreapp3.0
+/CoreApiWithJWT/obj
