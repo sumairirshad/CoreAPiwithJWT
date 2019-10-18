@@ -12,3 +12,5 @@
 /.vs/slnx.sqlite
 /CoreApiWithJWT/bin/Debug/netcoreapp3.0
 /CoreApiWithJWT/obj
+*.dtbcache
+*.config

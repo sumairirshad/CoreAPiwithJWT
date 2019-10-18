@@ -22,11 +22,11 @@ namespace CoreApiWithJWT.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        [HttpPost]
+        [HttpPost("Login")]
         [AllowAnonymous]
         public IActionResult Login([FromBody]LoginModel obj)
         {
-            UserModel user = null;
+            UserModel user = new UserModel();
             try
             {
                
@@ -34,7 +34,7 @@ namespace CoreApiWithJWT.Controllers
                 {
                     if (obj.Email == "demo" && obj.Password == "demo")
                     {
-                        user.token = SecurityHelper.GenerateToken(user, "secret", 40);
+                        user.token = SecurityHelper.GenerateToken(user, "04180dac-78b8-43af-87b0-9d939de5f0d7", 40);
                     }
                 }
                 
